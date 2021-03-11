@@ -28,4 +28,9 @@ public class Calculadora {
 		int resul = num1 / num2;
 		return resul;
 	}
+	
+	public double logNdeX(){
+		
+     return (Math.log10(num1) / Math.log10(num2));
+  }
 }
